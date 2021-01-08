@@ -1,0 +1,70 @@
+body{
+  background-image: url(./background.jpg );/*non so perchè non prende tutta l'immagine*/
+  width: 1000px;
+  margin:auto;
+  margin-top: 5%;
+}
+.raggruppamento{
+  background: #000000;
+      opacity: 0.7;
+  text-align: center;
+  margin-bottom: 10%;
+  border-radius: 10px;
+
+}
+
+#logo{
+  width: 200px;
+  margin-top:5%;
+}
+h1{
+  color:#7CFC00;
+}
+nav{
+  background-color:#7CFC00;
+  height: 55px;
+  width: 80%;
+  display: inline-block;
+
+}
+.primo{
+   width: 43%;
+   color: white;
+   margin-bottom: 10%;
+}
+.speciale::before{
+  content: "\295F";
+}
+.speciale{
+  margin-top: auto;
+  width: 103%;
+  display: block;
+}
+p{
+  margin-right: 36%;
+}
+.status{
+  height: 30px;
+  width: 55%;
+  background-color: orange;
+  display:inline-block;
+  border-radius: 10px;
+}
+.status2{
+  height: 30px;
+  width: 95%;
+  background-color:#7CFC00;
+  margin-left: 22%;
+  border-radius: 10px;
+}
+.status3{
+  height: 30px;
+  width: 30%;
+  background-color: red;
+  margin-left: 22%;
+  border-radius: 10px;
+}
+/* .primo >p{
+  text-align: center;
+  margin-right: auto;
+} */
